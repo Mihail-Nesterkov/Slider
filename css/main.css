@@ -1,0 +1,123 @@
+@import "reset.css";
+body{
+
+    font-family: 'Yeseva One', cursive;
+}
+.main{
+    max-width: 1400px;
+    background-color: #131313;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 1171px;
+    margin: 0 auto;
+}
+.info{
+    display: table-cell;
+    max-width: 442px;
+    /*text-align: center;*/
+}
+.proj{
+    margin-top: 176px;
+    font-size: 27px;
+    color: #E3B873;
+}
+.line{
+    margin-left: 33px;
+    vertical-align: super
+}
+.info_text{
+    margin-top: 34px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF
+}
+.info_hotel{
+    height: 204px;
+    margin-top: 42px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.info_main{
+    font-size: 18px;
+    line-height: 25px;
+    color: #E3B873;
+}
+.info_main_text{
+    margin-bottom: 34px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+.arrow{
+    display: flex;
+
+}
+.dots{
+    display: flex;
+    align-items: center;
+}
+
+.alips{
+    margin: 0 9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+
+    cursor: pointer;
+}
+#dotActive{
+    background: #FFFFFF;
+}
+.left, .right{
+    cursor: pointer;
+}
+.left{
+    margin-right: 21px;
+}
+.right{
+    margin-left: 21px;
+}
+.img{
+    max-width: 681px;
+}
+
+.list_hotel ul{
+    margin-top: 107px;
+    display: flex;
+}
+.list_hotel ul li{
+    margin-right: 60px;
+    margin-bottom: 53px;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.3;
+
+    cursor: pointer;
+}
+#active{
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    line-height: 7px;
+}
+.img_hotel{
+    margin-bottom: 125px;
+
+    width: 679px;
+    height: 482px;
+    background-size: cover;
+}
