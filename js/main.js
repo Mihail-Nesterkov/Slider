@@ -1,6 +1,6 @@
 let img = [
     {
-    url: '/image/img/admiral.jpg',
+    url: 'Slider/image/img/admiral.jpg',
     textCity: 'Rostov-on-Don<br>LCD admiral',
     textApartment: '81 m<sup>2</sup>',
     textTime: '3.5 months',
