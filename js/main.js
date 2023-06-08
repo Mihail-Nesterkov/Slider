@@ -1,13 +1,13 @@
 let img = [
     {
-    url: 'Slider/image/img/admiral.jpg',
+    url: './image/img/admiral.jpg',
     textCity: 'Rostov-on-Don<br>LCD admiral',
     textApartment: '81 m<sup>2</sup>',
     textTime: '3.5 months',
     textCost: 'Upon request'
     },
     {
-        url: '../image/img/thieves.jpg',
+        url: './image/img/thieves.jpg',
         textCity: 'Sochi\n' +
             'Thieves',
         textApartment: '105 m<sup>2</sup>',
@@ -15,7 +15,7 @@ let img = [
         textCost: 'Upon request'
     },
     {
-        url: '../image/img/patriotic.jpg',
+        url: './image/img/patriotic.jpg',
         textCity: 'Rostov-on-Don<br>Patriotic',
         textApartment: '93 m<sup>2</sup>',
         textTime: '3 months',
